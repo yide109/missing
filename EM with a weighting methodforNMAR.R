@@ -5,7 +5,7 @@ library(mice)       # For multiple imputation of missing data
 library(seminr)     # For structural equation modeling
 
 # Read the data from an Excel file
-data <- read_excel("C:\\Users\\liuyi\\OneDrive - must.edu.mo\\Ph.D stu\\Yide\\lushan\\multiple\\nmar_corporatereputation.xlsx")
+data <- read_excel("path_to_your_file \\nmar_corporatereputation.xlsx")
 
 # Apply multiple imputation using the EM method via the 'mice' package
 imputed_data <- mice(data, method = "norm", m = 1, maxit = 5, seed = 123)
