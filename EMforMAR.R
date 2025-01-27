@@ -5,7 +5,7 @@ library(mice)    # For multiple imputation of missing data
 library(seminr)  # For structural equation modeling
 
 # Read the data from the Excel file
-data <- read_excel("C:\\Users\\liuyi\\OneDrive - must.edu.mo\\Ph.D stu\\Yide\\lushan\\multiple\\mar_corporatereputation.xlsx")
+data <- read_excel("path_to_your_file\\mar_corporatereputation.xlsx")
 
 # Check the dataset for missing values
 head(data)
